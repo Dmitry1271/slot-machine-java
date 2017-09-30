@@ -1,0 +1,48 @@
+package by.dudko.slotmachine.swing.gamescreens;
+
+import by.dudko.slotmachine.swing.MainScreen;
+
+import javax.swing.*;
+
+/**
+ * Created by cplus on 28.09.2017.
+ */
+public class GameChoice extends JPanel {
+    private JButton demoGameButton = new JButton("Demo game");
+    private JButton normalGameButton = new JButton("Normal Game");
+
+    public GameChoice() {
+        setProperties();
+        settingBounds();
+        addingToPanel();
+        addButtonsAction();
+    }
+
+    private void setProperties() {
+        setLayout(null);
+    }
+
+    private void settingBounds() {
+        demoGameButton.setBounds(315, 220, 170, 35);
+        normalGameButton.setBounds(315, 280, 170, 35);
+    }
+
+    private void addingToPanel() {
+        add(demoGameButton);
+        add(normalGameButton);
+    }
+
+    private void addButtonsAction() {
+        demoGameButton.addActionListener(e -> {
+            MainScreen.isDemoGame = true;
+            MainScreen.mainPanel.add(new GameTable(), "GameTable");
+            MainScreen.layout.show(MainScreen.mainPanel, "GameTable");
+        });
+
+        normalGameButton.addActionListener(e -> {
+            MainScreen.isDemoGame = false;
+            MainScreen.mainPanel.add(new GameTable(), "GameTable");
+            MainScreen.layout.show(MainScreen.mainPanel, "Login");
+        });
+    }
+}

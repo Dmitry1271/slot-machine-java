@@ -1,0 +1,1 @@
+19:20:27.689 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Column 'id' not found.

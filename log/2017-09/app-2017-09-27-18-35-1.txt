@@ -1,0 +1,1 @@
+18:35:52.804 [ERROR] - [by.dudko.slotmachine.swing.MainScreen] - DB connection error: java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/clients_data
