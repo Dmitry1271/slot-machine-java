@@ -10,6 +10,7 @@ import by.dudko.slotmachine.swing.autorization.Login;
 import by.dudko.slotmachine.swing.autorization.Registration;
 import by.dudko.slotmachine.swing.gamescreens.GameChoice;
 import by.dudko.slotmachine.swing.gamescreens.GameTable;
+import by.dudko.slotmachine.swing.gamescreens.RiskPanel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -24,7 +25,7 @@ public class MainScreen extends JFrame {
     public static JPanel mainPanel = new JPanel();
 
     public MainScreen() {
-        super("qwerty tyuiop");
+        super("Slot machine");
         setSize(800, 627);
         initStatement();
 

@@ -20,7 +20,9 @@ import static javax.swing.JOptionPane.*;
 /**
  * Created by cplus on 29.09.2017.
  */
-public class GameTable extends JPanel {
+public class GameTable extends JPanel{
+    static double wonMoney = 0;
+    static double balanceValue;
     //The first ring
     private JPanel firstSlot = new JPanel();
     private JLabel firstZero = new JLabel(Constants.SLOT_RINGS[0][0]);
@@ -81,6 +83,7 @@ public class GameTable extends JPanel {
         addingToPanel();
         addButtonsAction();
         addCheckBoxesAction();
+        balanceValue = LabelReader.getValue(balance);
     }
 
     private void setRingsValues(String[][] rings) {
@@ -99,10 +102,14 @@ public class GameTable extends JPanel {
 
     private void setBalance() {
         if (MainScreen.isDemoGame) {
-            balance.setText("100.0");
+            this.balance.setText("100.0");
         } else {
 
         }
+    }
+
+    private void setBalance(double balance) {
+        this.balance.setText("" + balance);
     }
 
     private void setProperties() {
@@ -172,8 +179,8 @@ public class GameTable extends JPanel {
         thirdSlot.add(thirdTwo);
 
         betPanel.add(bet);
-        balancePanel.add(balance);
         betForLinePanel.add(betForLine);
+        balancePanel.add(balance);
 
         add(firstSlot);
         add(secondSlot);
@@ -218,13 +225,12 @@ public class GameTable extends JPanel {
                 double betAllValue1 = LabelReader.getValue(bet);
                 if (numberSelectedLines > 0) {
                     if (betAllValue1 <= balance) {
-                        double wonMoney = 0;
                         slotRings.generate();
                         setRingsValues(slotRings.getVisiblePartRings());
                         wonMoney = new CalculationMoneyForElements(Double.parseDouble(betForLine.getText())).calculate(new CheckLines(LinesFromCheckBoxes.getSelectedLines(listBoxes)).getWonElements(slotRings));
                         isWon = wonMoney > 0;
                         if (isWon) showMessageDialog(null, "You won: " + wonMoney + "\nNow you can Risk!");
-                        this.balance.setText("" + DoubleRounding.round(Double.parseDouble(this.balance.getText()) - Double.parseDouble(bet.getText()) + wonMoney));
+                        balanceValue = DoubleRounding.round(Double.parseDouble(this.balance.getText()) - Double.parseDouble(bet.getText()) + wonMoney);
                     } else showMessageDialog(null, "You haven't so much money!");
                 } else showMessageDialog(null, "You must select at least one line!");
             } else {
@@ -234,8 +240,11 @@ public class GameTable extends JPanel {
 
         riskButton.addActionListener(e -> {
             if (isWon) {
-                //realize Risk
+                MainScreen.mainPanel.add(new RiskPanel(), "RiskPanel");//выполняется каждый раз после нажатия
+                MainScreen.layout.show(MainScreen.mainPanel, "RiskPanel");
+                isWon = false;
             } else {
+                MainScreen.mainPanel.add(new RiskPanel(), "RiskPanel");
                 showMessageDialog(null, "You can use this only right after the winning!");
             }
         });
@@ -259,6 +268,8 @@ public class GameTable extends JPanel {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
+        balance.setText("" + balanceValue);
+        balancePanel.add(balance);
         if (line1Box.isSelected()) {
             g.setColor(Color.red);
             g.drawLine(227, 140, 255, 140);
