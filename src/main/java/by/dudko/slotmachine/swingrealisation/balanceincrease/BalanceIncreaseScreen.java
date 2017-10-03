@@ -1,6 +1,7 @@
 package by.dudko.slotmachine.swingrealisation.balanceincrease;
 
 import by.dudko.slotmachine.swingrealisation.MainScreen;
+import by.dudko.slotmachine.swingrealisation.action.DoubleRounding;
 import by.dudko.slotmachine.swingrealisation.action.LabelReader;
 import by.dudko.slotmachine.swingrealisation.autorization.Login;
 
@@ -19,7 +20,7 @@ public class BalanceIncreaseScreen extends JPanel {
     private static final Logger Logger = LogManager.getLogger(BalanceIncreaseScreen.class);
     private JLabel panelName = new JLabel("Top up the balance");
     private JLabel balanceName = new JLabel("Your balance is: ");
-    private JLabel balanceValue = new JLabel("" + Login.client.getBalance());
+    private JLabel balanceValue = new JLabel("" + DoubleRounding.round(Login.client.getBalance()));
     private JLabel balanceInputName = new JLabel("Enter the top up balance:");
     private JTextField balanceInput = new JTextField();
     private JButton topUpButton = new JButton("Top up");
@@ -33,7 +34,7 @@ public class BalanceIncreaseScreen extends JPanel {
     }
 
     private void setBalanceValue(Double value) {
-        balanceValue.setText("" + value);
+        balanceValue.setText("" + DoubleRounding.round(value));
     }
 
     private void setProperties() {
@@ -80,7 +81,7 @@ public class BalanceIncreaseScreen extends JPanel {
             }
         });
 
-        goGameButton.addActionListener(e->{
+        goGameButton.addActionListener(e -> {
             MainScreen.mainPanel.add(new GameTable(), "GameTable");
             MainScreen.layout.show(MainScreen.mainPanel, "GameTable");
         });
