@@ -1,0 +1,1 @@
+19:23:00.378 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Column 'login' not found.

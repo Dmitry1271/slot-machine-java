@@ -1,8 +1,8 @@
-00:20:52.893 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:24:52.524 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:25:02.166 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:25:07.384 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:25:12.188 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:25:14.515 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:25:18.549 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
-00:25:22.015 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:20:52.893 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:24:52.524 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:25:02.166 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:25:07.384 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:25:12.188 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:25:14.515 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:25:18.549 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:25:22.015 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().

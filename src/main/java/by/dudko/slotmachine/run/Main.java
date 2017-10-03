@@ -1,8 +1,6 @@
 package by.dudko.slotmachine.run;
 
-import by.dudko.slotmachine.entity.Guest;
-import by.dudko.slotmachine.entity.User;
-import by.dudko.slotmachine.swing.MainScreen;
+import by.dudko.slotmachine.swingrealisation.MainScreen;
 
 import javax.swing.*;
 import java.util.LinkedList;

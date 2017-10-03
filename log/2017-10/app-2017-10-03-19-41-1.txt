@@ -1,0 +1,1 @@
+19:41:41.369 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Incorrect integer value: '' for column 'card_number' at row 1

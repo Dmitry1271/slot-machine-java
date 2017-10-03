@@ -1,1 +1,1 @@
-00:30:46.260 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Can not issue data manipulation statements with executeQuery().
+00:30:46.260 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Can not issue data manipulation statements with executeQuery().

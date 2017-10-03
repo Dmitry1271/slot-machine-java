@@ -1,1 +1,1 @@
-00:37:47.141 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Incorrect integer value: 'jlkds' for column 'card_number' at row 1
+00:37:47.141 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Incorrect integer value: 'jlkds' for column 'card_number' at row 1

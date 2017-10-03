@@ -1,6 +1,6 @@
 package by.dudko.slotmachine.machinerealisation.action;
 
-import static by.dudko.slotmachine.run.Constants.*;
+import static by.dudko.slotmachine.constants.Constants.*;
 
 /**
  * Created by cplus on 28.08.2017.

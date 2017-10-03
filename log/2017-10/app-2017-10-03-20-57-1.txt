@@ -1,0 +1,1 @@
+20:14:03.093 [ERROR] - [by.dudko.slotmachine.swingrealisation.MainScreen] - Can not issue empty query.

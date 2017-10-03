@@ -1,0 +1,2 @@
+19:26:56.749 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - '6.754897469123014E15' in column '8' is outside valid range for the datatype INTEGER.
+19:27:42.535 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - '6.754897469123014E15' in column '8' is outside valid range for the datatype INTEGER.

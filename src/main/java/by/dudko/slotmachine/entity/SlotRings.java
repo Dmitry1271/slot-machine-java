@@ -1,6 +1,6 @@
 package by.dudko.slotmachine.entity;
 
-import by.dudko.slotmachine.run.Constants;
+import by.dudko.slotmachine.constants.Constants;
 import by.dudko.slotmachine.machinerealisation.action.RingScrolling;
 
 /**

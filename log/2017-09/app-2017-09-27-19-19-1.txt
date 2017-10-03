@@ -1,1 +1,1 @@
-19:19:15.658 [ERROR] - [by.dudko.slotmachine.swing.autorization.Login] - Unknown column 'id' in 'field list'
+19:19:15.658 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Unknown column 'id' in 'field list'
