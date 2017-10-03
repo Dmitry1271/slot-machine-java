@@ -1,3 +1,2 @@
-22:05:09.322 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Incorrect integer value: '' for column 'card_number' at row 1
-22:05:11.725 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Incorrect integer value: '' for column 'card_number' at row 1
-22:05:27.032 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Data truncation: Out of range value for column 'card_number' at row 1
+22:30:57.818 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Incorrect integer value: '' for column 'card_number' at row 1
+22:30:58.585 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - Incorrect integer value: '' for column 'card_number' at row 1

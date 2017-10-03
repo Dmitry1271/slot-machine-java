@@ -57,9 +57,8 @@ public class Login extends JPanel {
         add(registrationButton);
     }
 
-    private void addButtonsAction() {
+    private void addButtonsAction() {//need shift valid in new class
         singInButton.addActionListener(e -> {
-
             if (!"".equals(login.getText())) {
                 try {
                     ResultSet result = MainScreen.statement.executeQuery("SELECT * FROM client WHERE login=\'" + login.getText() + "\' AND password=\'" + password.getText() + "\'");
