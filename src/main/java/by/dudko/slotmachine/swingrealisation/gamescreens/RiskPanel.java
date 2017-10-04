@@ -112,7 +112,7 @@ public class RiskPanel extends JPanel {
         add(blackButton);
     }
 
-    private void redBlackButtonsFunction(int value){
+    private void redBlackButtonsFunction(int value) {
         if (valueForSelection == value) {
             wonPanels.get(wonNumber++).setBackground(Color.green);
             setWonValueNow(LabelReader.getValue(wonValueNext));
@@ -123,13 +123,17 @@ public class RiskPanel extends JPanel {
                 GameTable.wonMoney = LabelReader.getValue(wonValueNow);
                 setWonPanelsColor(null);
                 GameTable.balanceValue += DoubleRounding.round(LabelReader.getValue(wonValueNow) - winningForFirstRisk);
-                Login.client.setBalance(GameTable.balanceValue);
+                if (!MainScreen.isDemoGame) {
+                    Login.client.setBalance(GameTable.balanceValue);
+                }
                 MainScreen.layout.show(MainScreen.mainPanel, "GameTable");
             }
         } else {
             JOptionPane.showMessageDialog(null, "You lost:" + winningForFirstRisk + "!");
             GameTable.balanceValue -= DoubleRounding.round(winningForFirstRisk);
-            Login.client.setBalance(GameTable.balanceValue);
+            if (!MainScreen.isDemoGame) {
+                Login.client.setBalance(GameTable.balanceValue);
+            }
             MainScreen.layout.show(MainScreen.mainPanel, "GameTable");
         }
         setValueForSelection(RiskGenerator.generate());

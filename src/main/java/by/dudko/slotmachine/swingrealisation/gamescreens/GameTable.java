@@ -261,6 +261,10 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
                 showMessageDialog(null, "You can use this only right after the winning!");
             }
         });
+
+        helpButton.addActionListener(e->{
+            MainScreen.layout.show(MainScreen.mainPanel,"HelpPanel");
+        });
     }
 
     private void addCheckBoxesAction() {
@@ -276,10 +280,6 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
                 }
             });
         }
-    }
-
-    private void clientPlay(boolean isClient) {
-
     }
 
     @Override

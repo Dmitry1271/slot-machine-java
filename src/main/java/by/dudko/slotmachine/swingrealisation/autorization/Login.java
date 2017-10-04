@@ -69,7 +69,7 @@ public class Login extends JPanel {
                         if (answer == JOptionPane.YES_OPTION) {
                             MainScreen.mainPanel.add(new BalanceIncreaseScreen(), "BalanceIncreaseScreen");
                             MainScreen.layout.show(MainScreen.mainPanel, "BalanceIncreaseScreen");
-                        } else {
+                        } else if(answer != JOptionPane.CLOSED_OPTION){
                             MainScreen.mainPanel.add(new GameTable(), "GameTable");
                             MainScreen.layout.show(MainScreen.mainPanel, "GameTable");
                         }

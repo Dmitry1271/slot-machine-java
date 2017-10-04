@@ -11,6 +11,7 @@ import by.dudko.slotmachine.swingrealisation.action.DBConnector;
 import by.dudko.slotmachine.swingrealisation.autorization.Login;
 import by.dudko.slotmachine.swingrealisation.autorization.Registration;
 import by.dudko.slotmachine.swingrealisation.gamescreens.GameChoice;
+import by.dudko.slotmachine.swingrealisation.gamescreens.HelpPanel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,7 +26,7 @@ public class MainScreen extends JFrame {
     public static JPanel mainPanel = new JPanel();
 
     public MainScreen() {
-        super("Slot machine");
+        super("Slot Machine");
         setSize(800, 627);
         initStatement();
 
@@ -33,6 +34,7 @@ public class MainScreen extends JFrame {
         mainPanel.add(new GameChoice(), "GameChoice");
         mainPanel.add(new Login(), "Login");
         mainPanel.add(new Registration(), "Registration");
+        mainPanel.add(new HelpPanel(), "HelpPanel");
 
         add(mainPanel);
         setVisible(true);
