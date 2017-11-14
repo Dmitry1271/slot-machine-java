@@ -1,5 +1,6 @@
 package by.dudko.slotmachine.swingrealisation.gamescreens;
 
+import by.dudko.slotmachine.constants.GameChoiceConstants;
 import by.dudko.slotmachine.swingrealisation.MainScreen;
 
 import javax.swing.*;
@@ -8,8 +9,8 @@ import javax.swing.*;
  * Created by cplus on 28.09.2017.
  */
 public class GameChoice extends JPanel {
-    private JButton demoGameButton = new JButton("Demo game");
-    private JButton normalGameButton = new JButton("Normal Game");
+    private JButton demoGameButton = new JButton(GameChoiceConstants.DEMO_GAME_BUTTON_TEXT);
+    private JButton normalGameButton = new JButton(GameChoiceConstants.NORMAL_GAME_BUTTON_TEXT);
 
     public GameChoice() {
         setProperties();

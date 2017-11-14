@@ -12,6 +12,6 @@ import java.sql.SQLException;
 public class DBConnector {
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(Constants.TYPE_DB + ':' + Constants.NAME_DB + ':' + Constants.URL_DB, Constants.LOGIN_DB, Constants.PASSWORD_DB);
+        return DriverManager.getConnection(Constants.URL_DB, Constants.LOGIN_DB, Constants.PASSWORD_DB);
     }
 }

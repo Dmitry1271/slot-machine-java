@@ -2,18 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985b66df-5da7-49a1-aa0d-fc36b4d8a94a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/HelpPanelConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/GameTableConstants.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/entity/Client.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/constants/Constants.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/constants/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/constants/HelpPanelConstants.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/constants/HelpPanelConstants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/run/Main.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/run/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/MainScreen$1.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/MainScreen$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/MainScreen.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/MainScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/autorization/Login.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/autorization/Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/autorization/Registration.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/autorization/Registration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.class" afterPath="$PROJECT_DIR$/target/classes/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log.txt" afterPath="$PROJECT_DIR$/log/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/HelpPanelConstants.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/HelpPanelConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/action/Checking.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/action/Checking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/run/Main.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/run/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Login.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/Client.java" afterPath="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,27 +53,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Login.java">
+      <file leaf-file-name="DBConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="32" column="27" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1507108902312" expanded="true" signature="2216:2320" ph="SELECT idcli... client" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="273" column="15" lean-forward="true" selection-start-line="273" selection-start-column="15" selection-end-line="273" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,44 +66,20 @@
       <file leaf-file-name="HelpPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="-189">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-393">
+              <caret line="252" column="60" lean-forward="true" selection-start-line="252" selection-start-column="60" selection-end-line="252" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelpPanelConstants.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/HelpPanelConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/RegistrationValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-              <folding>
-                <element signature="e#1889#1890#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,12 +88,29 @@
       <file leaf-file-name="BalanceIncreaseScreenValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/BalanceIncreaseScreenValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-              <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-2017-11-15-00-01-1.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/2017-11/app-2017-11-15-00-01-1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/RegistrationValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +118,8 @@
       <file leaf-file-name="RiskPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+            <state relative-caret-position="-53">
+              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,16 +127,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BalanceIncreaseScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.java">
+      <file leaf-file-name="GameChoiceConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/GameChoiceConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1448#1449#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,17 +140,21 @@
       <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="-323">
+              <caret line="23" column="98" lean-forward="false" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1507113872948" expanded="true" signature="1918:1944" ph="UPDATE clien... " />
-                <marker date="1507113872948" expanded="true" signature="1918:1946" ph="UPDATE clien... " />
-                <marker date="1507113872948" expanded="true" signature="1918:1997" ph="UPDATE clien... " />
-                <marker date="1507113872948" expanded="true" signature="1918:1999" ph="UPDATE clien... " />
-                <marker date="1507113872948" expanded="true" signature="1918:2029" ph="UPDATE clien... " />
-                <marker date="1507113872948" expanded="true" signature="1918:2031" ph="UPDATE clien... " />
+                <marker date="1510702388538" expanded="true" signature="844:888" ph="UPDATE clien... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,18 +180,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/autorization/DBConnector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingaction/ButtonLoginAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/autorization/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/autorization/MainScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/autorization/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/autorization/Registration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/autorization/GameChoice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/SlotRings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/autorization/MainScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/result/CreationResults.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/Guest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/run/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/autorization/Registration.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/slotmachinecreaator/result/CreationResults.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/slotmachinecreaator/combination/FirstLineCombo.java" />
@@ -207,31 +196,41 @@
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/result/CheckLines.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/result/CalculationMoneyForElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/additionalbonus/RiskGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/riskbonus/RiskGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/gamescreens/GameChoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/MainScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/autorization/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/gamescreens/RiskPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swing/gamescreens/GameTable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/BalanceIncreaseScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/PanelHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/exception/BadDataException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/LabelReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/LoginValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/BalanceIncreaseScreenValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/RegistrationValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/BalanceIncreaseScreenValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/run/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/action/Checking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/LinesFromCheckBoxes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/HelpPanelConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/riskbonus/RiskGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/RiskPanelConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/GameChoiceConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/GameTableConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java" />
       </list>
     </option>
   </component>
@@ -264,6 +263,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,10 +331,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="slotmachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="valid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,7 +428,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="balanceincrease" />
+              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,11 +458,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="swingrealisation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autorization" />
+              <option name="myItemId" value="run" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,6 +485,116 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="slotmachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machinerealisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riskbonus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotmachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machinerealisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="result" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotmachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machinerealisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="combination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotmachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machinerealisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,9 +658,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slotMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,7 +682,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../training/JWD_TASK03/jwd-task03-servlet" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1084,6 +1199,14 @@
       <workItem from="1507028828692" duration="391000" />
       <workItem from="1507050240685" duration="18027000" />
       <workItem from="1507107046423" duration="6614000" />
+      <workItem from="1507114287999" duration="1440000" />
+      <workItem from="1507146320072" duration="1896000" />
+      <workItem from="1507214025192" duration="146000" />
+      <workItem from="1507383604448" duration="967000" />
+      <workItem from="1508612085693" duration="5796000" />
+      <workItem from="1509634355537" duration="354000" />
+      <workItem from="1510252039716" duration="339000" />
+      <workItem from="1510692251729" duration="10122000" />
     </task>
     <servers />
   </component>
@@ -1096,7 +1219,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120060000" />
+    <option name="totallyTimeSpent" value="141120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1111,13 +1234,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22362205" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27818447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1129,7 +1253,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1140,7 +1263,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1149,96 +1272,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507067263962" expanded="true" signature="3499:3566" ph="SELECT idcli... client" />
-            <marker date="1507067263962" expanded="true" signature="3791:4140" ph="INSERT INTO client... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/dudko/slotmachine/machinerealisation/action/CalculationPrizeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/dudko/slotmachine/machinerealisation/action/CheckingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/event/ActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingaction/ButtonLoginAction.java" />
-    <entry file="file://$PROJECT_DIR$/log/2017-09/app-2017-09-27-19-49-1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/action/UserChoice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/combination/ForthLineCombo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/combination/ThirdLineCombo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/combination/FirstLineCombo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/Guest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/ClientValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/write/ConsoleWriter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/PanelHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/exception/BadDataException.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/LoginValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/SlotRings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/combination/ForthLineCombo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1249,22 +1315,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DoubleRounding.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/combination/ThirdLineCombo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#227#228#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/Guest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2017-10/app-2017-10-03-19-25-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/action/CalculationPrize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="129">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,13 +1364,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/action/RingScrolling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,64 +1380,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/combination/FifthLineCombo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/ChangeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/run/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/SlotRings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/result/CheckLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="61">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,40 +1404,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/riskbonus/RiskGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="325">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/ClientValidator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/write/ConsoleWriter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/PanelHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/exception/BadDataException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/LinesFromCheckBoxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/run/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/ChangeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,140 +1439,213 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DoubleRounding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/LoginValidator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/dao/UserDAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507067263962" expanded="true" signature="3499:3566" ph="SELECT idcli... client" />
-            <marker date="1507067263962" expanded="true" signature="3791:4140" ph="INSERT INTO client... " />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/BalanceIncreaseScreenValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/balanceincrease/BalanceIncreaseScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+        <state relative-caret-position="249">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/RegistrationValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding>
-            <element signature="e#1889#1890#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="273" column="15" lean-forward="true" selection-start-line="273" selection-start-column="15" selection-end-line="273" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="17" column="124" lean-forward="false" selection-start-line="17" selection-start-column="124" selection-end-line="17" selection-end-column="124" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507108902312" expanded="true" signature="2216:2320" ph="SELECT idcli... client" />
+            <marker date="1510696622698" expanded="true" signature="629:678" ph="SELECT * FRO... client" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/autorization/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="1853">
+          <caret line="118" column="44" lean-forward="false" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+            <marker date="1510697102041" expanded="true" signature="631:672" ph="SELECT idcli... client" />
+            <marker date="1510697102041" expanded="true" signature="744:847" ph="INSERT INTO client... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/LinesFromCheckBoxes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1507113872948" expanded="true" signature="1918:1944" ph="UPDATE clien... " />
-            <marker date="1507113872948" expanded="true" signature="1918:1946" ph="UPDATE clien... " />
-            <marker date="1507113872948" expanded="true" signature="1918:1997" ph="UPDATE clien... " />
-            <marker date="1507113872948" expanded="true" signature="1918:1999" ph="UPDATE clien... " />
-            <marker date="1507113872948" expanded="true" signature="1918:2029" ph="UPDATE clien... " />
-            <marker date="1507113872948" expanded="true" signature="1918:2031" ph="UPDATE clien... " />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameChoice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/machinerealisation/riskbonus/RiskGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/HelpPanelConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="119">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/RiskPanelConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/GameTableConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/GameChoiceConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/HelpPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/action/DBConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/GameTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="252" column="60" lean-forward="true" selection-start-line="252" selection-start-column="60" selection-end-line="252" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/MainScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="23" column="98" lean-forward="false" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
+          <folding>
+            <marker date="1510702388538" expanded="true" signature="844:888" ph="UPDATE clien... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/swingrealisation/gamescreens/RiskPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/RegistrationValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/dudko/slotmachine/valid/BalanceIncreaseScreenValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2017-11/app-2017-11-15-00-01-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

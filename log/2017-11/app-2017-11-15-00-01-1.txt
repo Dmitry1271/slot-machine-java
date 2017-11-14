@@ -1,0 +1,2 @@
+00:01:15.855 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - No value specified for parameter 6
+00:01:18.260 [ERROR] - [by.dudko.slotmachine.swingrealisation.autorization.Login] - No value specified for parameter 6

@@ -9,8 +9,9 @@
             </PatternLayout>
             <Policies>
                 <!--<OnStartupTriggeringPolicy />--><!--При каждой загрузке новый файл-->
-                <SizeBasedTriggeringPolicy size="10 MB" /><!--Максимальный размер файла-->
-                <TimeBasedTriggeringPolicy interval="2" modulate="true"/><!--каждые 2 мин (смотрит filePattern) новый файл-->
+                <SizeBasedTriggeringPolicy size="10 MB"/><!--Максимальный размер файла-->
+                <TimeBasedTriggeringPolicy interval="2"
+                                           modulate="true"/><!--каждые 2 мин (смотрит filePattern) новый файл-->
             </Policies>
             <DefaultRolloverStrategy max="4"/> <!--Сколько файлов ротирует -->
 

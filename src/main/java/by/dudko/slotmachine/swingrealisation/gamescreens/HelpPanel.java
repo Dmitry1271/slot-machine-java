@@ -9,8 +9,8 @@ import javax.swing.*;
  * Created by cplus on 04.10.2017.
  */
 public class HelpPanel extends JPanel {
-    JLabel rules = new JLabel(HelpPanelConstants.RULES);
-    JButton goGameButton = new JButton(HelpPanelConstants.BUTTON_NAME);
+    private JLabel rules = new JLabel(HelpPanelConstants.RULES);
+    private JButton goGameButton = new JButton(HelpPanelConstants.BUTTON_NAME);
 
     public HelpPanel() {
         setPanelProperties();

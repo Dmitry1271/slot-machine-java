@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -19,8 +21,12 @@ import org.apache.logging.log4j.Logger;
  * Created by cplus on 17.09.2017.
  */
 public class MainScreen extends JFrame {
+    public static final String SQL_UPDATE_BALANCE = "UPDATE client SET balance=? WHERE idclient=?;";
+
     private static final Logger Logger = LogManager.getLogger(MainScreen.class);
-    public static Statement statement;
+
+    public static PreparedStatement statement;
+    public static Connection connection;
     public static boolean isDemoGame;
     public static CardLayout layout = new CardLayout();
     public static JPanel mainPanel = new JPanel();
@@ -28,7 +34,7 @@ public class MainScreen extends JFrame {
     public MainScreen() {
         super("Slot Machine");
         setSize(800, 627);
-        initStatement();
+        initConnection();
 
         mainPanel.setLayout(layout);
         mainPanel.add(new GameChoice(), "GameChoice");
@@ -52,7 +58,10 @@ public class MainScreen extends JFrame {
             public void windowClosing(WindowEvent e) {
                 if (Login.isLogined) {
                     try {
-                        MainScreen.statement.execute("UPDATE client SET balance=\'" + Login.client.getBalance() + "\' WHERE idclient=\'" + Login.client.getId() + "\'");
+                        statement = connection.prepareStatement(SQL_UPDATE_BALANCE);
+                        statement.setString(1, String.valueOf(Login.user.getBalance()));
+                        statement.setString(2, String.valueOf(Login.user.getId()));
+                        statement.execute();
                     } catch (SQLException e1) {
                         Logger.error(e1.getMessage());
                     }
@@ -86,9 +95,9 @@ public class MainScreen extends JFrame {
         });
     }
 
-    private void initStatement() {
+    private void initConnection() {
         try {
-            statement = DBConnector.getConnection().createStatement();
+            connection = DBConnector.getConnection();
         } catch (SQLException e) {
             Logger.error("DB connection error: " + e);
         }

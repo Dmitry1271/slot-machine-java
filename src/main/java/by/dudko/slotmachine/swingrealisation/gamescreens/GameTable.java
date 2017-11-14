@@ -1,5 +1,7 @@
 package by.dudko.slotmachine.swingrealisation.gamescreens;
 
+import static by.dudko.slotmachine.constants.GameTableConstants.*;
+
 import by.dudko.slotmachine.entity.SlotRings;
 import by.dudko.slotmachine.constants.Constants;
 import by.dudko.slotmachine.machinerealisation.result.CalculationMoneyForElements;
@@ -22,7 +24,7 @@ import static javax.swing.JOptionPane.*;
 /**
  * Created by cplus on 29.09.2017.
  */
-public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
+public class GameTable extends JPanel {
     static double wonMoney = 0;
     static double balanceValue;
     //The first ring
@@ -41,22 +43,22 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
     private JLabel thirdOne = new JLabel(Constants.SLOT_RINGS[2][1]);
     private JLabel thirdTwo = new JLabel(Constants.SLOT_RINGS[2][2]);
     //Buttons
-    private JButton playButton = new JButton("Play");
-    private JButton riskButton = new JButton("Risk");
-    private JButton helpButton = new JButton("Help");
-    private JButton plusButton = new JButton("+");
-    private JButton minusButton = new JButton("-");
+    private JButton playButton = new JButton(PLAY_BUTTON_TEXT);
+    private JButton riskButton = new JButton(RISK_BUTTON_TEXT);
+    private JButton helpButton = new JButton(HELP_BUTTON_TEXT);
+    private JButton plusButton = new JButton(PLUS_BUTTON_TEXT);
+    private JButton minusButton = new JButton(MINUS_BUTTON_TEXT);
     //Panels with names
     private JPanel balancePanel = new JPanel();
     private JPanel betPanel = new JPanel();
     private JPanel betForLinePanel = new JPanel();
     //Information for player
-    private JLabel balanceName = new JLabel("Balance");
-    private JLabel betName = new JLabel("Bet");
-    private JLabel betForLineName = new JLabel("Bet for line");
-    private JLabel balance = new JLabel("0.0");
-    private JLabel bet = new JLabel("0.0");
-    private JLabel betForLine = new JLabel("0.1");
+    private JLabel balanceName = new JLabel(BALANCE_TEXT);
+    private JLabel betName = new JLabel(BET_TEXT);
+    private JLabel betForLineName = new JLabel(BET_FOR_LINE_TEXT);
+    private JLabel balance = new JLabel();
+    private JLabel bet = new JLabel(BET_VALUE);
+    private JLabel betForLine = new JLabel(BET_FOR_LINE_VALUE);
     //Lines checkBoxes
     private JCheckBox line1Box = new JCheckBox();
     private JCheckBox line2Box = new JCheckBox();
@@ -68,8 +70,6 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
     //GameDoings
     private SlotRings slotRings;
     private boolean isWon = false;
-
-    private int lineNumber = 0;
 
 
     public GameTable() {
@@ -89,6 +89,7 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
     }
 
     private void setRingsValues(String[][] rings) {
+        //The first ring
         firstZero.setText(rings[0][0]);
         firstOne.setText(rings[0][1]);
         firstTwo.setText(rings[0][2]);
@@ -104,41 +105,46 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
 
     private void setBalance() {
         if (MainScreen.isDemoGame) {
-            this.balance.setText("100.0");
+            this.balance.setText(String.valueOf(Constants.DEMO_BALANCE));
         } else {
-            this.balance.setText("" + Login.client.getBalance());
+            this.balance.setText(String.valueOf(Login.user.getBalance()));
         }
     }
 
     private void setBalance(double balance) {
-        this.balance.setText("" + balance);
+        this.balance.setText(String.valueOf(balance));
     }
 
     private void setProperties() {
         setLayout(null);
+        //The first ring
         firstSlot.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
         firstZero.setFont(new Font("Verdana", Font.PLAIN, 55));
         firstOne.setFont(new Font("Verdana", Font.PLAIN, 55));
         firstTwo.setFont(new Font("Verdana", Font.PLAIN, 55));
+        //The second ring
         secondSlot.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
         secondZero.setFont(new Font("Verdana", Font.PLAIN, 55));
         secondOne.setFont(new Font("Verdana", Font.PLAIN, 55));
         secondTwo.setFont(new Font("Verdana", Font.PLAIN, 55));
+        //The third ring
         thirdSlot.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
         thirdZero.setFont(new Font("Verdana", Font.PLAIN, 55));
         thirdOne.setFont(new Font("Verdana", Font.PLAIN, 55));
         thirdTwo.setFont(new Font("Verdana", Font.PLAIN, 55));
+
         playButton.setFont(new Font("Verdana", Font.PLAIN, 20));
         riskButton.setFont(new Font("Verdana", Font.PLAIN, 20));
         helpButton.setFont(new Font("Verdana", Font.PLAIN, 20));
-        bet.setFont(new Font("Verdana", Font.PLAIN, 20));
-        betPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
         plusButton.setFont(new Font("Verdana", Font.BOLD, 20));
         plusButton.setMargin(new Insets(0, 0, 0, 0));
         minusButton.setFont(new Font("Verdana", Font.BOLD, 25));
         minusButton.setMargin(new Insets(0, 0, 0, 0));
+
+        bet.setFont(new Font("Verdana", Font.PLAIN, 20));
         betForLine.setFont(new Font("Verdana", Font.PLAIN, 20));
         balance.setFont(new Font("Verdana", Font.PLAIN, 20));
+        betPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
         balancePanel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
         betForLinePanel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
     }
@@ -211,43 +217,55 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
     private void addButtonsAction() {
         plusButton.addActionListener(e -> {
             double value = ChangeValue.changePlus(LabelReader.getValue(betForLine));
-            betForLine.setText("" + DoubleRounding.round(value));
-            bet.setText("" + DoubleRounding.round(value * numberSelectedLines));
+            betForLine.setText(String.valueOf(DoubleRounding.round(value)));
+            bet.setText(String.valueOf(DoubleRounding.round(value * numberSelectedLines)));
         });
 
         minusButton.addActionListener(e -> {
             double value = ChangeValue.changeMinus(LabelReader.getValue(betForLine));
-            betForLine.setText("" + DoubleRounding.round(value));
-            bet.setText("" + DoubleRounding.round(value * numberSelectedLines));
+            betForLine.setText(String.valueOf(DoubleRounding.round(value)));
+            bet.setText(String.valueOf(DoubleRounding.round(value * numberSelectedLines)));
         });
 
-        playButton.addActionListener((ActionEvent e) -> {//need correct
+        playButton.addActionListener((ActionEvent e) -> {
             double balance = LabelReader.getValue(this.balance);
             double betAllValue1 = LabelReader.getValue(bet);
+
             if (numberSelectedLines > 0) {
                 if (betAllValue1 <= balance) {
                     slotRings.generate();
                     setRingsValues(slotRings.getVisiblePartRings());
-                    wonMoney = new CalculationMoneyForElements(Double.parseDouble(betForLine.getText())).calculate(new CheckLines(LinesFromCheckBoxes.getSelectedLines(listBoxes)).getWonElements(slotRings));
+
+                    wonMoney = new CalculationMoneyForElements(Double.parseDouble(betForLine.getText())).calculate(
+                            new CheckLines(LinesFromCheckBoxes.getSelectedLines(listBoxes)).getWonElements(slotRings));
+
                     isWon = wonMoney > 0;
-                    if (isWon) showMessageDialog(null, "You won: " + wonMoney + "\nNow you can Risk!");
-                    balanceValue = DoubleRounding.round(Double.parseDouble(this.balance.getText()) - Double.parseDouble(bet.getText()) + wonMoney);
-                    if (!MainScreen.isDemoGame) {
-                        Login.client.setBalance(balanceValue);
+                    if (isWon) {
+                        showMessageDialog(null, MESSAGE_DIALOG_TEXT_AFTER_WON_1 + wonMoney + MESSAGE_DIALOG_TEXT_AFTER_WON_2);
                     }
+
+                    balanceValue = DoubleRounding.round(
+                            Double.parseDouble(this.balance.getText()) -
+                                    Double.parseDouble(bet.getText()) +
+                                    wonMoney);
+
+                    if (!MainScreen.isDemoGame) {
+                        Login.user.setBalance(balanceValue);
+                    }
+
                 } else {
                     if (!MainScreen.isDemoGame) {
-                        int answer = showConfirmDialog(null, "You haven't so much money!\nDo you wanna top up your balance?");
+                        int answer = showConfirmDialog(null, CONFIRM_DIALOG_AFTER_LOST_MONEY_NORMAL_GAME);
                         if (answer == JOptionPane.YES_OPTION) {
                             MainScreen.mainPanel.add(new BalanceIncreaseScreen(), "BalanceIncreaseScreen");
                             MainScreen.layout.show(MainScreen.mainPanel, "BalanceIncreaseScreen");
                         }
                     } else {
-                        showMessageDialog(null, "You haven't so much money!");
+                        showMessageDialog(null, MESSAGE_DIALOG_AFTER_LOST_MONEY_DEMO_GAME);
                     }
                 }
             } else {
-                showMessageDialog(null, "You must select at least one line!");
+                showMessageDialog(null, MESSAGE_DIALOG_LINE_SELECTION_HELP);
             }
         });
 
@@ -258,25 +276,25 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
                 isWon = false;
             } else {
                 MainScreen.mainPanel.add(new RiskPanel(), "RiskPanel");
-                showMessageDialog(null, "You can use this only right after the winning!");
+                showMessageDialog(null, MESSAGE_DIALOG_RISK_HELP);
             }
         });
 
-        helpButton.addActionListener(e->{
-            MainScreen.layout.show(MainScreen.mainPanel,"HelpPanel");
+        helpButton.addActionListener(e -> {
+            MainScreen.layout.show(MainScreen.mainPanel, "HelpPanel");
         });
     }
 
     private void addCheckBoxesAction() {
         for (JCheckBox box : listBoxes) {
             box.addActionListener(e -> {
-                double bet1 = Double.parseDouble(betForLine.getText());//LabelReader
+                double bet1 = Double.parseDouble(betForLine.getText());
                 if (box.isSelected()) {
                     numberSelectedLines++;
-                    bet.setText("" + DoubleRounding.round(bet1 * numberSelectedLines));
+                    bet.setText(String.valueOf(DoubleRounding.round(bet1 * numberSelectedLines)));
                 } else {
                     numberSelectedLines--;
-                    bet.setText("" + DoubleRounding.round(bet1 * numberSelectedLines));
+                    bet.setText(String.valueOf(DoubleRounding.round(bet1 * numberSelectedLines)));
                 }
             });
         }
@@ -285,34 +303,36 @@ public class GameTable extends JPanel {//ИНТЕРФЕЙС МОЖНО
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        balance.setText("" + balanceValue);
+
+        balance.setText(String.valueOf(balanceValue));
         balancePanel.add(balance);
+
         if (line1Box.isSelected()) {
-            g.setColor(Color.red);
+            g.setColor(FIRST_LINE_COLOR);
             g.drawLine(227, 140, 255, 140);
             g.drawLine(325, 140, 365, 140);
             g.drawLine(435, 140, 475, 140);
         }
         if (line2Box.isSelected()) {
-            g.setColor(Color.blue);
+            g.setColor(SECOND_LINE_COLOR);
             g.drawLine(227, 215, 255, 215);
             g.drawLine(325, 215, 365, 215);
             g.drawLine(435, 215, 475, 215);
         }
         if (line3Box.isSelected()) {
-            g.setColor(new Color(204, 0, 153));
+            g.setColor(THIRD_LINE_COLOR);
             g.drawLine(227, 290, 255, 290);
             g.drawLine(325, 290, 365, 290);
             g.drawLine(435, 290, 475, 290);
         }
         if (line4Box.isSelected()) {
-            g.setColor(new Color(0, 200, 51));
+            g.setColor(TOP_DIAG_LINE_COLOR);
             g.drawLine(227, 74, 255, 100);
             g.drawLine(325, 160, 365, 195);
             g.drawLine(435, 254, 475, 289);
         }
         if (line5Box.isSelected()) {
-            g.setColor(Color.ORANGE);
+            g.setColor(BOTTOM_DIAG_COLOR);
             g.drawLine(227, 354, 255, 329);
             g.drawLine(325, 271, 365, 236);
             g.drawLine(435, 178, 475, 141);

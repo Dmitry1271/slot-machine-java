@@ -20,7 +20,7 @@ public class BalanceIncreaseScreen extends JPanel {
     private static final Logger Logger = LogManager.getLogger(BalanceIncreaseScreen.class);
     private JLabel panelName = new JLabel("Top up the balance");
     private JLabel balanceName = new JLabel("Your balance is: ");
-    private JLabel balanceValue = new JLabel("" + DoubleRounding.round(Login.client.getBalance()));
+    private JLabel balanceValue = new JLabel("" + DoubleRounding.round(Login.user.getBalance()));
     private JLabel balanceInputName = new JLabel("Enter the top up balance:");
     private JTextField balanceInput = new JTextField();
     private JButton topUpButton = new JButton("Top up");
@@ -70,7 +70,7 @@ public class BalanceIncreaseScreen extends JPanel {
         topUpButton.addActionListener(e -> {
             if (!"".equals(balanceInput.getText())) {
                 if (BalanceIncreaseScreenValidator.isValidBalance(balanceInput.getText())) {
-                    Login.client.setBalance(Login.client.getBalance() + LabelReader.getValue(balanceInput));
+                    Login.user.setBalance(Login.user.getBalance() + LabelReader.getValue(balanceInput));
                     setBalanceValue((LabelReader.getValue(balanceValue) + LabelReader.getValue(balanceInput)));
                     JOptionPane.showMessageDialog(null, "Success!\nYour balance was toped up on: " + balanceInput.getText());
                 } else {

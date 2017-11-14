@@ -3,7 +3,10 @@ package by.dudko.slotmachine.constants;
 /**
  * Created by cplus on 04.10.2017.
  */
-public class HelpPanelConstants {
+public final class HelpPanelConstants {
+    private HelpPanelConstants() {
+    }
+
     public static final String RULES = "<html>" +
             "<h2 style = \"text-align: center\">Slot machine rules</h2>" +
             "<p>1) Choose at least one line in boxes on the left of rings with symbols;</p>" +

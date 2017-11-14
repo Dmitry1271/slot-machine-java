@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import by.dudko.slotmachine.entity.Client;
+import by.dudko.slotmachine.entity.User;
 import by.dudko.slotmachine.swingrealisation.MainScreen;
 import by.dudko.slotmachine.swingrealisation.balanceincrease.BalanceIncreaseScreen;
 import by.dudko.slotmachine.swingrealisation.gamescreens.GameTable;
@@ -15,8 +15,11 @@ import org.apache.logging.log4j.Logger;
  * Created by cplus on 17.09.2017.
  */
 public class Login extends JPanel {
+    public static final String SQL_SELECT_CLIENT_BY_LOGIN_AND_PASSWORD = "SELECT * FROM client WHERE login=? AND password=?;";
+
     private static final Logger Logger = LogManager.getLogger(Login.class);
-    public static Client client;
+
+    public static User user;
     public static boolean isLogined = false;
     private JLabel mainLabel = new JLabel("Sign in");
     private JLabel loginLabel = new JLabel("Login:");
@@ -61,15 +64,19 @@ public class Login extends JPanel {
         singInButton.addActionListener(e -> {
             if (!"".equals(login.getText())) {
                 try {
-                    ResultSet result = MainScreen.statement.executeQuery("SELECT * FROM client WHERE login=\'" + login.getText() + "\' AND password=\'" + password.getText() + "\'");
+                    MainScreen.statement = MainScreen.connection.prepareStatement(SQL_SELECT_CLIENT_BY_LOGIN_AND_PASSWORD);
+                    MainScreen.statement.setString(1, login.getText());
+                    MainScreen.statement.setString(2, password.getText());
+                    ResultSet result = MainScreen.statement.executeQuery();
+
                     if (result.next()) {
-                        client = new Client(result.getInt("idclient"), result.getString("login"), result.getLong("card_number"), result.getDouble("balance"));
-                        int answer = JOptionPane.showConfirmDialog(null, "Your balance is: " + client.getBalance() + "\nDo you wanna top your balance?");
+                        user = new User(result.getInt("idclient"), result.getString("login"), result.getLong("card_number"), result.getDouble("balance"));
+                        int answer = JOptionPane.showConfirmDialog(null, "Your balance is: " + user.getBalance() + "\nDo you wanna top your balance?");
                         isLogined = true;
                         if (answer == JOptionPane.YES_OPTION) {
                             MainScreen.mainPanel.add(new BalanceIncreaseScreen(), "BalanceIncreaseScreen");
                             MainScreen.layout.show(MainScreen.mainPanel, "BalanceIncreaseScreen");
-                        } else if(answer != JOptionPane.CLOSED_OPTION){
+                        } else if (answer != JOptionPane.CLOSED_OPTION) {
                             MainScreen.mainPanel.add(new GameTable(), "GameTable");
                             MainScreen.layout.show(MainScreen.mainPanel, "GameTable");
                         }
